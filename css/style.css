@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+/* imagen de madera de fondo */
+body {
+  background-image: url(./img/madera.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  overflow-x: hidden; }
+
+.container1 {
+  background-image: url(./img/fondo.jpg); }
+
+.bos {
+  color: darkgreen; }
+
+.nat {
+  color: #7d5833; }
+
+/* Bandera de chile */
+.es img {
+  display: flex;
+  justify-content: end;
+  font-size: 10px;
+  width: 30px;
+  text-align: center; }
+
+.container-fluid a img {
+  width: 100px;
+  margin: 5px; }
+
+.col {
+  padding: 50px; }
+
+.container-fluid h5 {
+  color: white; }
+
+/* card (quienessomos.html)*/
+.card {
+  background-image: url(./img/fondo.jpg);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 90px;
+  color: white; }
+
+/* formulario contactos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
+
+.container-form {
+  background-image: url(./img/fondo.jpg);
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+  color: white; }
+  .container-form h2 {
+    margin-bottom: 15px;
+    font-size: 35px; }
+  .container-form p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: white; }
+  .container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700; }
+    .container-form a i {
+      color: #1bd61b;
+      margin-right: 10px; }
+  .container-form form .campo {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px; }
+
+textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px; }
+
+.container-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px; }
+
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: #1bd61b;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease; }
+  .container-form .btn-enviar:hover {
+    background: #6d4906; }
